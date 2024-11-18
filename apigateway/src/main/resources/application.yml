@@ -1,0 +1,31 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: curriculum-vitae-service
+          uri: lb://CURRICULUM-VITAE-SERVICE
+          predicates:
+            - Path=/cv/**
+          filters:
+            - AuthenticationFilter
+
+        - id: country-service
+          uri: lb://COUNTRY-SERVICE
+          predicates:
+            - Path=/countries/**
+          filters:
+            - AuthenticationFilter
+
+        - id: identity-service
+          uri: lb://IDENTITY-SERVICE
+          predicates:
+            - Path=/auth/**
+
+  application:
+   name: API-GATEWAY
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone : http://localhost:8761/eureka/

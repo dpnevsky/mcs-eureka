@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c0a014-5a6b-451c-84e2-f6e70665c890" name="Changes" comment="init">
+    <list default="true" id="37c0a014-5a6b-451c-84e2-f6e70665c890" name="Changes" comment="add mcs and eureka">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -15,6 +20,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/eureka-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ms-identity">
       <ProjectState />
     </projectState>
   </component>
@@ -64,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -94,7 +103,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Gradle.Build eureka-server.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build ms-identity.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.eureka-server [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.apigateway [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.ms-country [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.ms-country [compile].executor&quot;: &quot;Run&quot;,
     &quot;Maven.ms-curriculum-vitae [clean].executor&quot;: &quot;Run&quot;,
@@ -105,13 +116,15 @@
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApigatewayApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.MsCountryApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.MsCurriculumVitaeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsIdentityApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pnana/IdeaProjects/mcs-eureka&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pnana/IdeaProjects/mcs-eureka/apigateway/src/main/java/com/pnevsky/apigateway/util&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -125,7 +138,8 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
-      &quot;h2&quot;
+      &quot;h2&quot;,
+      &quot;mysql&quot;
     ]
   }
 }</component>
@@ -134,6 +148,7 @@
       <recent name="com.pnevsky.mscountry.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pnana\IdeaProjects\mcs-eureka\apigateway\src\main\java\com\pnevsky\apigateway\util" />
       <recent name="C:\Users\pnana\IdeaProjects\mcs-eureka\ms-country\src\main\java\com\pnevsky\mscountry" />
       <recent name="C:\Users\pnana\IdeaProjects\mcs-eureka\ms-curriculum-vitae\src\main\resources" />
       <recent name="C:\Users\pnana\IdeaProjects\mcs-eureka\ms-curriculum-vitae\src\main\java\com\pnevsky\mscurriculumvitae" />
@@ -152,7 +167,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MsCurriculumVitaeApplication">
+  <component name="RunManager" selected="Spring Boot.ApigatewayApplication">
     <configuration name="eureka-server [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -175,6 +190,13 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="ApigatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="apigateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pnevsky.apigateway.ApigatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pnevsky.eurekaserver.EurekaServerApplication" />
@@ -192,6 +214,13 @@
     <configuration name="MsCurriculumVitaeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ms-curriculum-vitae" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pnevsky.mscurriculumvitae.MsCurriculumVitaeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsIdentityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-identity.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pnevsky.msidentity.MsIdentityApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,7 +253,8 @@
       <workItem from="1731597699751" duration="787000" />
       <workItem from="1731685541705" duration="29112000" />
       <workItem from="1731742221549" duration="1309000" />
-      <workItem from="1731839579137" duration="2092000" />
+      <workItem from="1731839579137" duration="22169000" />
+      <workItem from="1731945485659" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -242,7 +272,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731541045842</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add mcs and eureka">
+      <option name="closed" value="true" />
+      <created>1731842719426</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731842719426</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add mcs and eureka">
+      <option name="closed" value="true" />
+      <created>1731843041457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731843041457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +299,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -261,7 +319,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="add mcs and eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mcs and eureka" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
