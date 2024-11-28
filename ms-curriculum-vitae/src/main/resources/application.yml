@@ -5,7 +5,57 @@ spring:
   application:
     name: CURRICULUM-VITAE-SERVICE
 
+
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          keycloak:
+#            client-id: cvs-security
+#            client-secret: tyUTA8XH4LgjFiMoOwQ9c1pbwapL4jz9
+#            scope: openid
+#            authorization-grant-type: client_credentials
+#        provider:
+#          keycloak:
+#            jwk-set-uri: http://localhost:8080/realms/cvs/protocol/openid-connect/certs
+#            token-uri: http://localhost:8080/realms/cvs/protocol/openid-connect/token
+
 eureka:
   client:
     service-url:
       defaultZone : http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: mapping,bus-refresh,bus-env,health,circuitbreakerevents,retry
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+  health:
+    circuitbreakers:
+      enabled: true
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      country-service:
+        failureRateThreshold: 50
+        automaticTransitionFromOpenToHalfOpenEnabled: true
+        waitDurationInOpenState: 10s
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 2
+        minimumNumberOfCalls: 1
+        eventConsumerBufferSize: 10
+        registerHealthIndicator: true
+        permittedNumberOfCallsInHalfOpenState: 3
+    circuit-breaker-aspect-order: 2
+  retry:
+    retry-aspect-order: 10
+    instances:
+      country-service:
+        max-attempts: 3
+        wait-duration: 5000
+
+

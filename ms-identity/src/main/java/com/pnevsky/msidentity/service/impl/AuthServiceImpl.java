@@ -6,10 +6,11 @@ import com.pnevsky.msidentity.service.AuthService;
 import com.pnevsky.msidentity.service.JwtService;
 import lombok.AllArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @AllArgsConstructor
-@Service
+@Component
 public class AuthServiceImpl implements AuthService {
 
     private UserCredentialRepository userCredentialRepository;

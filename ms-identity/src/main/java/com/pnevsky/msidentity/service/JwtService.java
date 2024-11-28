@@ -13,15 +13,15 @@ import java.util.Map;
 @Component
 public class JwtService {
 
-    public final String SECRET = "1234";
+    public final String SECRET = "123432u8589734598431571389453091858434731320957813";
 
     public void validateToken(final String token) {
         Jwts.parser().setSigningKey(getSignKey()).build().parseSignedClaims(token);
     }
 
-    public String generateToken(String userName){
+    public String generateToken(String username){
         Map<String, Object> claims = new HashMap<>();
-        return createToken(claims, userName);
+        return createToken(claims, username);
     }
 
     private String createToken(Map<String, Object> claims, String userName) {

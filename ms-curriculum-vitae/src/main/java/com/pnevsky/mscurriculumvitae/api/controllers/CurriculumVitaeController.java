@@ -1,11 +1,13 @@
 package com.pnevsky.mscurriculumvitae.api.controllers;
 
-import com.pnevsky.mscurriculumvitae.client.CountryServiceClient;
+//import com.pnevsky.mscurriculumvitae.client.CountryServiceFeignClient;
+import com.pnevsky.mscurriculumvitae.client.CountryServiceFeignClient;
 import com.pnevsky.mscurriculumvitae.model.CurriculumVitae;
 import com.pnevsky.mscurriculumvitae.usecasse.CurriculumVitaeService;
 import com.pnevsky.mscurriculumvitae.usecasse.dto.CurriculumVitaeDto;
 import com.pnevsky.mscurriculumvitae.usecasse.mapper.CurriculumVitaeMapper;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,7 +19,8 @@ public class CurriculumVitaeController {
 
     private final CurriculumVitaeService curriculumVitaeService;
     private final CurriculumVitaeMapper curriculumVitaeMapper;
-    private final CountryServiceClient countryServiceClient;
+//    private final CountryServiceClient countryServiceClient;
+    private final CountryServiceFeignClient countryServiceClient;
 
     @GetMapping("/{id}")
     public ResponseEntity<CurriculumVitaeDto> getCvOfUser(@PathVariable Long id) {

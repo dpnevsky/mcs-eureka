@@ -4,6 +4,7 @@ import com.pnevsky.msidentity.dto.AuthRequest;
 import com.pnevsky.msidentity.entity.UserCredential;
 import com.pnevsky.msidentity.service.AuthService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -19,8 +20,10 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/auth")
 public class AuthController {
 
-    private final AuthService authService;
-    private final AuthenticationManager authenticationManager;
+    @Autowired
+    private AuthService authService;
+    @Autowired
+    private AuthenticationManager authenticationManager;
 
     @PostMapping("/register")
     public String addNewUser(@RequestBody UserCredential user) { return authService.saveUser(user); }
