@@ -1,4 +1,25 @@
+server:
+  port: 8888
+
 spring:
+  application:
+    name: API-GATEWAY
+  main:
+    allow-bean-definition-overriding: true
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: cvs-security
+            client-secret: tyUTA8XH4LgjFiMoOwQ9c1pbwapL4jz9
+            scope: openid
+            authorization-grant-type: client_credentials
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8080/realms/cvs/protocol/openid-connect/certs
+            token-uri: http://localhost:8080/realms/cvs/protocol/openid-connect/token
+
   cloud:
     gateway:
       routes:
@@ -6,23 +27,20 @@ spring:
           uri: lb://CURRICULUM-VITAE-SERVICE
           predicates:
             - Path=/cv/**
-          filters:
-            - AuthenticationFilter
+        #          filters:
+        #           - AuthenticationFilter
 
         - id: country-service
           uri: lb://COUNTRY-SERVICE
           predicates:
-            - Path=/countries/**
-          filters:
-            - AuthenticationFilter
+            - Path=/countries/
+        #          filters:
+        #            - AuthenticationFilter
 
         - id: identity-service
           uri: lb://IDENTITY-SERVICE
           predicates:
             - Path=/auth/**
-
-  application:
-   name: API-GATEWAY
 
 
 eureka:

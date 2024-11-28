@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c0a014-5a6b-451c-84e2-f6e70665c890" name="Changes" comment="add mcs and eureka">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="37c0a014-5a6b-451c-84e2-f6e70665c890" name="Changes" comment="add apigateway and ms-identity">
+      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9ac80b9-e648-4600-bd82-2c602736b97d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9ac80b9-e648-4600-bd82-2c602736b97d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/MsCurriculumVitaeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/MsCurriculumVitaeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/api/controllers/CurriculumVitaeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/api/controllers/CurriculumVitaeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/client/CountryServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/client/CountryServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/client/CountryServiceFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/client/CountryServiceFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/config/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/config/ApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/config/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/config/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/config/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/config/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/entity/UserCredential.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/entity/UserCredential.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/repository/UserCredentialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/repository/UserCredentialRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/impl/AuthServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,23 +51,15 @@
         <task path="$PROJECT_DIR$/eureka-server">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/ms-identity">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="eureka-server" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="eureka-server" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="eureka-server" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -60,6 +71,21 @@
                 <item name="eureka-server" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
                 <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ms-identity" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ms-identity" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ms-identity" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -100,49 +126,51 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build eureka-server.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build ms-identity.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.eureka-server [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.apigateway [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ms-country [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ms-country [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ms-curriculum-vitae [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ms-curriculum-vitae [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ms-curriculum-vitae [install].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ApigatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsCountryApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsCurriculumVitaeApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsIdentityApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pnana/IdeaProjects/mcs-eureka/apigateway/src/main/java/com/pnevsky/apigateway/util&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build eureka-server.executor": "Run",
+    "Gradle.Build ms-identity.executor": "Run",
+    "Gradle.eureka-server [clean].executor": "Run",
+    "Gradle.ms-identity [clean].executor": "Run",
+    "Maven.apigateway [clean].executor": "Run",
+    "Maven.apigateway [install].executor": "Run",
+    "Maven.ms-country [clean].executor": "Run",
+    "Maven.ms-country [compile].executor": "Run",
+    "Maven.ms-curriculum-vitae [clean].executor": "Run",
+    "Maven.ms-curriculum-vitae [compile].executor": "Run",
+    "Maven.ms-curriculum-vitae [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApigatewayApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.MsCountryApplication.executor": "Run",
+    "Spring Boot.MsCurriculumVitaeApplication.executor": "Run",
+    "Spring Boot.MsIdentityApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pnana/IdeaProjects/mcs-eureka",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;h2&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2",
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.pnevsky.mscountry.repository" />
@@ -154,8 +182,11 @@
       <recent name="C:\Users\pnana\IdeaProjects\mcs-eureka\ms-curriculum-vitae\src\main\java\com\pnevsky\mscurriculumvitae" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pnana\IdeaProjects\mcs-eureka" />
       <recent name="C:\Users\pnana\IdeaProjects\mcs-eureka\ms-curriculum-vitae\src\main\resources" />
+      <recent name="C:\Users\pnana\IdeaProjects\mcs-eureka" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pnevsky.mscurriculumvitae.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -167,11 +198,33 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApigatewayApplication">
+  <component name="RunManager" selected="Spring Boot.MsCountryApplication">
     <configuration name="eureka-server [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ms-identity [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-identity" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -227,6 +280,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ms-identity [clean]" />
         <item itemvalue="Gradle.eureka-server [clean]" />
       </list>
     </recent_temporary>
@@ -255,6 +309,15 @@
       <workItem from="1731742221549" duration="1309000" />
       <workItem from="1731839579137" duration="22169000" />
       <workItem from="1731945485659" duration="715000" />
+      <workItem from="1731961714401" duration="894000" />
+      <workItem from="1732189454754" duration="13591000" />
+      <workItem from="1732216264186" duration="13121000" />
+      <workItem from="1732229930694" duration="3754000" />
+      <workItem from="1732271121072" duration="98000" />
+      <workItem from="1732400399055" duration="3205000" />
+      <workItem from="1732474984401" duration="1311000" />
+      <workItem from="1732542418574" duration="24248000" />
+      <workItem from="1732703547280" duration="9473000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -288,7 +351,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731843041457</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add apigateway and ms-identity">
+      <option name="closed" value="true" />
+      <created>1731961955725</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731961955725</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add apigateway and ms-identity">
+      <option name="closed" value="true" />
+      <created>1731962194622</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731962194622</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +384,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -320,7 +399,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="add mcs and eureka" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mcs and eureka" />
+    <MESSAGE value="add apigateway and ms-identity" />
+    <option name="LAST_COMMIT_MESSAGE" value="add apigateway and ms-identity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

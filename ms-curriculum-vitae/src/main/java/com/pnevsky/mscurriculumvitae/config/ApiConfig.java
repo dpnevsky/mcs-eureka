@@ -13,4 +13,9 @@ public class ApiConfig {
         return new RestTemplate();
     }
 
+    @Bean
+    public FeignErrorDecoder getFeignErrorDecoder(){
+        return new FeignErrorDecoder();
+    }
+
 }

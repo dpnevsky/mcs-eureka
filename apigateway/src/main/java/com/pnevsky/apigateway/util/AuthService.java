@@ -1,7 +1,7 @@
-package com.pnevsky.apigateway.util;
-
-
-public interface AuthService {
-
-    void validateToken(String token);
-}
+//package com.pnevsky.apigateway.util;
+//
+//
+//public interface AuthService {
+//
+//    void validateToken(String token);
+//}

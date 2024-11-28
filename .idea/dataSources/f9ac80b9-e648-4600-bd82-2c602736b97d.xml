@@ -1025,7 +1025,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="295" parent="1" name="identity-db">
-      <LastIntrospectionLocalTimestamp>2024-11-17.23:11:42</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-11-21.13:04:46</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="296" parent="1" name="mysql.infoschema">
@@ -26994,21 +26994,21 @@ role_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="5218" parent="736" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>7</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5219" parent="736" name="name">
+    <column id="5219" parent="736" name="username">
       <DasType>varchar(50)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="5220" parent="736" name="email">
-      <DasType>varchar(50)|0s</DasType>
+      <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="5221" parent="736" name="password">
-      <DasType>varchar(100)|0s</DasType>
+      <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
     <index id="5222" parent="736" name="PRIMARY">
