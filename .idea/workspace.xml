@@ -5,32 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37c0a014-5a6b-451c-84e2-f6e70665c890" name="Changes" comment="add apigateway and ms-identity">
-      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f9ac80b9-e648-4600-bd82-2c602736b97d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f9ac80b9-e648-4600-bd82-2c602736b97d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/config/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/filter/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/pnevsky/apigateway/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-country/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-country/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-country/src/main/java/com/pnevsky/mscountry/controllers/CountryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-country/src/main/java/com/pnevsky/mscountry/controllers/CountryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-country/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-country/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/MsCurriculumVitaeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/MsCurriculumVitaeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/api/controllers/CurriculumVitaeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/api/controllers/CurriculumVitaeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/client/CountryServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/client/CountryServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/client/CountryServiceFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/client/CountryServiceFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/config/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/config/ApiConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/config/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/config/CustomUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/config/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/config/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/entity/UserCredential.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/entity/UserCredential.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/repository/UserCredentialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/repository/UserCredentialRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-identity/src/main/java/com/pnevsky/msidentity/service/impl/AuthServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,51 +111,54 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build eureka-server.executor": "Run",
-    "Gradle.Build ms-identity.executor": "Run",
-    "Gradle.eureka-server [clean].executor": "Run",
-    "Gradle.ms-identity [clean].executor": "Run",
-    "Maven.apigateway [clean].executor": "Run",
-    "Maven.apigateway [install].executor": "Run",
-    "Maven.ms-country [clean].executor": "Run",
-    "Maven.ms-country [compile].executor": "Run",
-    "Maven.ms-curriculum-vitae [clean].executor": "Run",
-    "Maven.ms-curriculum-vitae [compile].executor": "Run",
-    "Maven.ms-curriculum-vitae [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ApigatewayApplication.executor": "Run",
-    "Spring Boot.EurekaServerApplication.executor": "Run",
-    "Spring Boot.MsCountryApplication.executor": "Run",
-    "Spring Boot.MsCurriculumVitaeApplication.executor": "Run",
-    "Spring Boot.MsIdentityApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pnana/IdeaProjects/mcs-eureka",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build eureka-server.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build ms-identity.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.eureka-server [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ms-identity [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CvsAppConfigServer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.apigateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.apigateway [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ms-country [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ms-country [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ms-curriculum-vitae [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ms-curriculum-vitae [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ms-curriculum-vitae [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApigatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CvsAppConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsCountryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsCurriculumVitaeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsIdentityApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pnana/IdeaProjects/broker&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;bigdataide_conn_settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "h2",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.pnevsky.mscountry.repository" />
@@ -185,8 +173,13 @@
       <recent name="C:\Users\pnana\IdeaProjects\mcs-eureka\ms-curriculum-vitae\src\main\resources" />
       <recent name="C:\Users\pnana\IdeaProjects\mcs-eureka" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pnevsky.mscurriculumvitae" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pnevsky.mscurriculumvitae.config" />
+      <recent name="com.pnevsky.mscountry.config" />
+      <recent name="com.pnevsky.mscountry.client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,6 +239,13 @@
     <configuration name="ApigatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="apigateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pnevsky.apigateway.ApigatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CvsAppConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CvsAppConfigServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pnevsky.cvsappconfigserver.CvsAppConfigServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -318,6 +318,12 @@
       <workItem from="1732474984401" duration="1311000" />
       <workItem from="1732542418574" duration="24248000" />
       <workItem from="1732703547280" duration="9473000" />
+      <workItem from="1732794367678" duration="3999000" />
+      <workItem from="1732832432809" duration="103000" />
+      <workItem from="1733185144730" duration="2044000" />
+      <workItem from="1733428457812" duration="1148000" />
+      <workItem from="1733700583756" duration="9589000" />
+      <workItem from="1733844724608" duration="555000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -411,5 +417,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

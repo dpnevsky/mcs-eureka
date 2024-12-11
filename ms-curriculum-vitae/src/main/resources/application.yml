@@ -1,9 +1,9 @@
-server:
-  port: 8084
-
-spring:
-  application:
-    name: CURRICULUM-VITAE-SERVICE
+#server:
+#  port: 8084
+#
+#spring:
+#  application:
+#    name: CURRICULUM-VITAE-SERVICE
 
 
 #  security:

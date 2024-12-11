@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/ms-curriculum-vitae/pom.xml" />
         <option value="$PROJECT_DIR$/ms-country/pom.xml" />
         <option value="$PROJECT_DIR$/apigateway/pom.xml" />
+        <option value="$PROJECT_DIR$/CvsAppConfigServer/pom.xml" />
       </list>
     </option>
   </component>

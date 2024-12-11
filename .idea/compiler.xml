@@ -10,6 +10,7 @@
         <module name="ms-country" />
         <module name="apigateway" />
         <module name="ms-curriculum-vitae" />
+        <module name="CvsAppConfigServer" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -22,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CvsAppConfigServer" options="-parameters" />
       <module name="apigateway" options="-parameters" />
       <module name="ms-country" options="-parameters" />
       <module name="ms-curriculum-vitae" options="-parameters" />
