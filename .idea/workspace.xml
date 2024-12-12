@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c0a014-5a6b-451c-84e2-f6e70665c890" name="Changes" comment="add apigateway and ms-identity">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="37c0a014-5a6b-451c-84e2-f6e70665c890" name="Changes" comment="add kafka">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-country/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-country/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-country/src/main/java/com/pnevsky/mscountry/controllers/CountryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-country/src/main/java/com/pnevsky/mscountry/controllers/CountryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-country/src/main/java/com/pnevsky/mscountry/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-country/src/main/java/com/pnevsky/mscountry/config/KafkaProducerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-country/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-country/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/config/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/java/com/pnevsky/mscurriculumvitae/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-curriculum-vitae/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -324,6 +321,9 @@
       <workItem from="1733428457812" duration="1148000" />
       <workItem from="1733700583756" duration="9589000" />
       <workItem from="1733844724608" duration="555000" />
+      <workItem from="1733954256083" duration="9375000" />
+      <workItem from="1734015320266" duration="1624000" />
+      <workItem from="1734042284630" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -373,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731962194622</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add kafka">
+      <option name="closed" value="true" />
+      <created>1733954928523</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733954928523</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +414,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="add mcs and eureka" />
     <MESSAGE value="add apigateway and ms-identity" />
-    <option name="LAST_COMMIT_MESSAGE" value="add apigateway and ms-identity" />
+    <MESSAGE value="add kafka" />
+    <option name="LAST_COMMIT_MESSAGE" value="add kafka" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

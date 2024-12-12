@@ -26,7 +26,9 @@ public class KafkaProducerConfig {
         configProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         configProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         configProps.put(ProducerConfig.ACKS_CONFIG, "1");
-        configProps.put(ProducerConfig.RETRIES_CONFIG, "3");
+        configProps.put(ProducerConfig.RETRIES_CONFIG, "300000");
+        configProps.put(ProducerConfig.RECONNECT_BACKOFF_MS_CONFIG, "5000");
+        configProps.put(ProducerConfig.DELIVERY_TIMEOUT_MS_CONFIG, "99999999");
         return new DefaultKafkaProducerFactory<>(configProps);
     }
 
@@ -39,7 +41,7 @@ public class KafkaProducerConfig {
     NewTopic createTopic(){
         return TopicBuilder.name("country-name-topic")
                 .partitions(3)
-                .replicas(2)
+                .replicas(3)
                 .configs(Map.of("min.insync.replicas", "2"))
                 .build();
     }

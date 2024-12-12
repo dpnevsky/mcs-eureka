@@ -1,24 +1,24 @@
-#server:
-#  port: 8084
-#
-#spring:
-#  application:
-#    name: CURRICULUM-VITAE-SERVICE
+server:
+  port: 8084
+
+spring:
+  application:
+    name: CURRICULUM-VITAE-SERVICE
 
 
-#  security:
-#    oauth2:
-#      client:
-#        registration:
-#          keycloak:
-#            client-id: cvs-security
-#            client-secret: tyUTA8XH4LgjFiMoOwQ9c1pbwapL4jz9
-#            scope: openid
-#            authorization-grant-type: client_credentials
-#        provider:
-#          keycloak:
-#            jwk-set-uri: http://localhost:8080/realms/cvs/protocol/openid-connect/certs
-#            token-uri: http://localhost:8080/realms/cvs/protocol/openid-connect/token
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: cvs-security
+            client-secret: HHkOLhiJQG7DYSh3XUGeZ9ZYOHXmcmLq
+            scope: openid
+            authorization-grant-type: client_credentials
+        provider:
+          keycloak:
+            jwk-set-uri: http://localhost:8080/realms/cvs/protocol/openid-connect/certs
+            token-uri: http://localhost:8080/realms/cvs/protocol/openid-connect/token
 
 eureka:
   client:
